@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	log "easy-admin-core/logger"
-	"easy-admin-core/server/grpc/interceptors/logging"
-	reqtags "easy-admin-core/server/grpc/interceptors/request_tag"
+	log "github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/logging"
+	reqtags "github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/request_tag"
 
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"

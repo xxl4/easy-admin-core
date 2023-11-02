@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/logging/ctxlog"
 
 	grpc_logging "github.com/grpc-ecosystem/go-grpc-middleware/logging"
 	"google.golang.org/grpc/codes"

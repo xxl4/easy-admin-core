@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/server/grpc/interceptors/logging/ctxlog"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/logging/ctxlog"
 
 	"google.golang.org/grpc"
 )

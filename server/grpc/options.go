@@ -6,10 +6,10 @@ import (
 	"math"
 	"time"
 
-	pbErr "easy-admin-core/errors"
-	log "easy-admin-core/logger"
-	"easy-admin-core/server/grpc/interceptors/logging"
-	requesttag "easy-admin-core/server/grpc/interceptors/request_tag"
+	pbErr "github.com/nicelizhi/easy-admin-core/errors"
+	log "github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/logging"
+	requesttag "github.com/nicelizhi/easy-admin-core/server/grpc/interceptors/request_tag"
 
 	recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
 	ctxtags "github.com/grpc-ecosystem/go-grpc-middleware/tags"

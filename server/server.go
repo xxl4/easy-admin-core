@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 type Server struct {

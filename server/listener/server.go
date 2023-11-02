@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/http"
 
-	log "easy-admin-core/logger"
-	"easy-admin-core/server"
+	log "github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/server"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

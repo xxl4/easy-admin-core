@@ -3,7 +3,7 @@ package ctxlog
 import (
 	"context"
 
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 type ctxMarker struct{}

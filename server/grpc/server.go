@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	log "easy-admin-core/logger"
+	log "github.com/nicelizhi/easy-admin-core/logger"
 
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
