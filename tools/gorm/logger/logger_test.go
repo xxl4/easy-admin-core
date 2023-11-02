@@ -5,7 +5,8 @@ import (
 	"testing"
 	"time"
 
-	logCore "easy-admin-core/logger"
+	logCore "github.com/nicelizhi/easy-admin-core/logger"
+
 	"gorm.io/gorm/logger"
 )
 

@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/utils"
 
-	loggerCore "easy-admin-core/logger"
+	loggerCore "github.com/nicelizhi/easy-admin-core/logger"
 )
 
 // Colors
