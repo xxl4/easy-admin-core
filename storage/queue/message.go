@@ -5,7 +5,7 @@ import (
 
 	"github.com/robinjoseph08/redisqueue/v2"
 
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 )
 
 type Message struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 )
 
 type queue chan storage.Messager

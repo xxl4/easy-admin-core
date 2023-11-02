@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 
 	"github.com/robinjoseph08/redisqueue/v2"
 )

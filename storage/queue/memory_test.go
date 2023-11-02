@@ -9,7 +9,7 @@ import (
 
 	"github.com/robinjoseph08/redisqueue/v2"
 
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 )
 
 func TestMemory_Append(t *testing.T) {

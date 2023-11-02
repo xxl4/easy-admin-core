@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 
 	json "github.com/json-iterator/go"
 	"github.com/nsqio/go-nsq"
