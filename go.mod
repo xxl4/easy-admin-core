@@ -1,4 +1,4 @@
-module easy-admin-core
+module github.com/nicelizhi/github.com/nicelizhi/easy-admin-core
 
 go 1.21
 
