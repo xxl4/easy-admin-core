@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "easy-admin-core/debug/log"
+	dlog "github.com/nicelizhi/easy-admin-core/debug/log"
 )
 
 func init() {
