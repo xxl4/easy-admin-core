@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/sdk"
-	"easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/sdk"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
 )
 
 type loggerKey struct{}

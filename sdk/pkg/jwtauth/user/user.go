@@ -3,8 +3,9 @@ package user
 import (
 	"fmt"
 
-	"easy-admin-core/sdk/pkg"
-	jwt "easy-admin-core/sdk/pkg/jwtauth"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
+	jwt "github.com/nicelizhi/easy-admin-core/sdk/pkg/jwtauth"
+
 	"github.com/gin-gonic/gin"
 )
 

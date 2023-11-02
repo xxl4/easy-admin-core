@@ -6,13 +6,14 @@ import (
 
 	"net/http"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/sdk"
-	"easy-admin-core/sdk/pkg"
-	"easy-admin-core/sdk/pkg/response"
-	"easy-admin-core/sdk/service"
-	"easy-admin-core/storage"
-	"easy-admin-core/tools/language"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/sdk"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg/response"
+	"github.com/nicelizhi/easy-admin-core/sdk/service"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/tools/language"
+
 	vd "github.com/bytedance/go-tagexpr/v2/validator"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

@@ -9,8 +9,8 @@ import (
 	"github.com/go-redis/redis/v9"
 	"github.com/robinjoseph08/redisqueue/v2"
 
-	"easy-admin-core/storage"
-	"easy-admin-core/storage/queue"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage/queue"
 )
 
 func TestNewMemoryQueue(t *testing.T) {

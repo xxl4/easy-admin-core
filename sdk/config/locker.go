@@ -1,8 +1,9 @@
 package config
 
 import (
-	"easy-admin-core/storage"
-	"easy-admin-core/storage/locker"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage/locker"
+
 	"github.com/go-redis/redis/v9"
 )
 

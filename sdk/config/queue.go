@@ -3,8 +3,8 @@ package config
 import (
 	"time"
 
-	"easy-admin-core/storage"
-	"easy-admin-core/storage/queue"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage/queue"
 
 	"github.com/go-redis/redis/v9"
 	"github.com/robinjoseph08/redisqueue/v2"
@@ -45,6 +45,7 @@ func (e Queue) Setup() (storage.AdapterQueue, error) {
 		e.Redis.Consumer.BlockingTimeout = e.Redis.Consumer.BlockingTimeout * time.Second
 		e.Redis.Consumer.VisibilityTimeout = e.Redis.Consumer.VisibilityTimeout * time.Second
 		client := GetRedisClient()
+		//client * redis.Client
 		if client == nil {
 			options, err := e.Redis.RedisConnectOptions.GetRedisOptions()
 			if err != nil {
@@ -53,8 +54,8 @@ func (e Queue) Setup() (storage.AdapterQueue, error) {
 			client = redis.NewClient(options)
 			_redis = client
 		}
-		e.Redis.Producer.RedisClient = client
-		e.Redis.Consumer.RedisClient = client
+		//e.Redis.Producer.RedisClient = client
+		//e.Redis.Consumer.RedisClient = client
 		return queue.NewRedis(e.Redis.Producer, e.Redis.Consumer)
 	}
 	if e.NSQ != nil {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/chanxuehong/wechat/oauth2"
 
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 )
 
 const (

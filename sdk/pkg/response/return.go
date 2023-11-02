@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
 )
 
 var Default = &response{}

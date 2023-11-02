@@ -6,14 +6,16 @@ import (
 	"net/http"
 	"strconv"
 
-	"easy-admin-core/sdk/service"
+	"github.com/nicelizhi/easy-admin-core/sdk/service"
+
 	vd "github.com/bytedance/go-tagexpr/v2/validator"
 	"github.com/gin-gonic/gin/binding"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/sdk/api"
-	"easy-admin-core/sdk/pkg"
-	"easy-admin-core/sdk/pkg/response/antd"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/sdk/api"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg/response/antd"
+
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

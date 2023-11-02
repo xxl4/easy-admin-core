@@ -4,12 +4,12 @@ import (
 	"io"
 	"os"
 
-	"easy-admin-core/debug/writer"
-	"easy-admin-core/logger"
-	"easy-admin-core/plugins/logger/zap"
-	"easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/debug/writer"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/plugins/logger/zap"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
 
-	log "easy-admin-core/logger"
+	log "github.com/nicelizhi/easy-admin-core/logger"
 )
 
 // SetupLogger 日志 cap 单位为kb

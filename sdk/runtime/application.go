@@ -6,9 +6,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/storage"
-	"easy-admin-core/storage/queue"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage/queue"
+
 	"github.com/casbin/casbin/v2"
 	"github.com/robfig/cron/v3"
 	"gorm.io/gorm"

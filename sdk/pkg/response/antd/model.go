@@ -3,7 +3,7 @@ package antd
 import (
 	"fmt"
 
-	resp "easy-admin-core/sdk/pkg/response"
+	resp "github.com/nicelizhi/easy-admin-core/sdk/pkg/response"
 )
 
 const (

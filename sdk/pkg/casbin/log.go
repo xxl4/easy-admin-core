@@ -3,7 +3,7 @@ package mycasbin
 import (
 	"sync/atomic"
 
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 // Logger is the implementation for a Logger using golang log.

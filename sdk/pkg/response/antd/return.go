@@ -3,7 +3,8 @@ package antd
 import (
 	"net/http"
 
-	"easy-admin-core/sdk/pkg"
+	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
+
 	"github.com/gin-gonic/gin"
 )
 

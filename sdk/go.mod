@@ -1,16 +1,17 @@
-module easy-admin-core/sdk
+module github.com/nicelizhi/github.com/nicelizhi/easy-admin-core/sdk
 
 go 1.21
 
 require (
+	github.com/nicelizhi/github.com/nicelizhi/easy-admin-core v0.0.0-00010101000000-000000000000
+	github.com/nicelizhi/github.com/nicelizhi/easy-admin-core/plugins/logger/zap v0.0.0-00010101000000-000000000000
 	github.com/bsm/redislock v0.9.4
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
 	github.com/casbin/casbin/v2 v2.77.2
+	github.com/casbin/gorm-adapter/v3 v3.20.0
+	github.com/casbin/redis-watcher/v2 v2.3.0
 	github.com/chanxuehong/wechat v0.0.0-20201110083048-0180211b69fd
 	github.com/gin-gonic/gin v1.9.1
-	github.com/casbin/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24
-	github.com/casbin/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2
-	github.com/robinjoseph08/redisqueue/v2 v2.0.0
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.14.0
@@ -19,10 +20,9 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/gorilla/websocket v1.4.2
 	github.com/mojocn/base64Captcha v1.3.1
-	easy-admin-core v1.6.2
-	easy-admin-core/plugins/logger/zap v1.6.1
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/robfig/cron/v3 v3.0.1
+	github.com/robinjoseph08/redisqueue/v2 v2.0.0
 	github.com/shamsher31/goimgext v1.0.0
 	github.com/slok/go-http-metrics v0.9.0
 	github.com/smartystreets/goconvey v1.8.1
@@ -36,17 +36,21 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
-	github.com/casbin/redis-watcher/v2 v2.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chanxuehong/rand v0.0.0-20201110082127-2f19a1bdd973 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/git-chglog/git-chglog v0.0.0-20190611050339-63a4e637021f // indirect
+	github.com/glebarez/go-sqlite v1.20.3 // indirect
+	github.com/glebarez/sqlite v1.7.0 // indirect
+	github.com/go-redis/redis/v7 v7.3.0 // indirect
+	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
@@ -75,7 +79,6 @@ require (
 	github.com/leodido/go-urn v1.2.4 // indirect
 	github.com/mattn/go-colorable v0.1.7 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/mattn/go-sqlite3 v1.14.15 // indirect
 	github.com/mattn/goveralls v0.0.2 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
@@ -90,6 +93,7 @@ require (
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/redis/go-redis/v9 v9.0.3 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20230126093431-47fa9a501578 // indirect
 	github.com/smarty/assertions v1.15.0 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/tidwall/gjson v1.14.4 // indirect
@@ -116,6 +120,15 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/driver/mysql v1.4.4 // indirect
 	gorm.io/driver/postgres v1.4.5 // indirect
-	gorm.io/driver/sqlite v1.1.4 // indirect
 	gorm.io/driver/sqlserver v1.4.1 // indirect
+	gorm.io/plugin/dbresolver v1.3.0 // indirect
+	modernc.org/libc v1.22.2 // indirect
+	modernc.org/mathutil v1.5.0 // indirect
+	modernc.org/memory v1.5.0 // indirect
+	modernc.org/sqlite v1.20.3 // indirect
+)
+
+replace (
+	github.com/nicelizhi/github.com/nicelizhi/easy-admin-core v0.0.0-00010101000000-000000000000 => ../
+	github.com/nicelizhi/github.com/nicelizhi/easy-admin-core/plugins/logger/zap v0.0.0-00010101000000-000000000000 => ../plugins/logger/zap
 )

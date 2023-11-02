@@ -3,7 +3,7 @@ package runtime
 import (
 	"github.com/bsm/redislock"
 
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
 )
 
 // NewLocker 创建对应上下文分布式锁

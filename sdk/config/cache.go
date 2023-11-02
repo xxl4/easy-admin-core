@@ -1,8 +1,8 @@
 package config
 
 import (
-	"easy-admin-core/storage"
-	"easy-admin-core/storage/cache"
+	"github.com/nicelizhi/easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage/cache"
 )
 
 type Cache struct {

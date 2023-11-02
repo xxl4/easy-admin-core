@@ -3,8 +3,9 @@ package service
 import (
 	"fmt"
 
-	"easy-admin-core/logger"
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/storage"
+
 	"gorm.io/gorm"
 )
 

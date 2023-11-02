@@ -1,6 +1,6 @@
 package runtime
 
-import "easy-admin-core/storage"
+import "github.com/nicelizhi/easy-admin-core/storage"
 
 // NewQueue 创建对应上下文队列
 func NewQueue(prefix string, queue storage.AdapterQueue) storage.AdapterQueue {

@@ -1,7 +1,8 @@
 package captcha
 
 import (
-	"easy-admin-core/storage"
+	"github.com/nicelizhi/easy-admin-core/storage"
+
 	"github.com/mojocn/base64Captcha"
 )
 

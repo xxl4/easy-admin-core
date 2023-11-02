@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"easy-admin-core/config"
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 var (
