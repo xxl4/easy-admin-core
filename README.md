@@ -1,1 +1,1 @@
-# easy-admin 公共代码库
+# easy-admin core library
