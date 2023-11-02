@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package errors;
 
-option go_package = "easy-admin-core/errors";
+option go_package = "github.com/nicelizhi/easy-admin-core/errors";
 
 message Error {
   // Success if request is success
