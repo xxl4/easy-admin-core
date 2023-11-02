@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"easy-admin-core/config/reader"
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/reader"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 // Loader manages loading sources

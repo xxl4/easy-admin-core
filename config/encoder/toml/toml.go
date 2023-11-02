@@ -3,7 +3,8 @@ package toml
 import (
 	"bytes"
 
-	"easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
+
 	"github.com/BurntSushi/toml"
 )
 

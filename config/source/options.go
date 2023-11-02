@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"easy-admin-core/config/encoder"
-	"easy-admin-core/config/encoder/json"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/json"
 )
 
 type Options struct {

@@ -4,10 +4,11 @@ import (
 	"errors"
 	"time"
 
-	"easy-admin-core/config/encoder"
-	"easy-admin-core/config/encoder/json"
-	"easy-admin-core/config/reader"
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/json"
+	"github.com/nicelizhi/easy-admin-core/config/reader"
+	"github.com/nicelizhi/easy-admin-core/config/source"
+
 	"github.com/imdario/mergo"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 	
-	"easy-admin-core/config"
-	"easy-admin-core/config/source/file"
+	"github.com/nicelizhi/easy-admin-core/config"
+	"github.com/nicelizhi/easy-admin-core/config/source/file"
 )
 
 func TestApp(t *testing.T)  {

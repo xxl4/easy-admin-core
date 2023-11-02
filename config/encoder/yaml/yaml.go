@@ -1,7 +1,8 @@
 package yaml
 
 import (
-	"easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
+
 	"github.com/ghodss/yaml"
 )
 

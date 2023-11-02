@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"easy-admin-core/config/loader"
-	"easy-admin-core/config/reader"
-	"easy-admin-core/config/source"
-	"easy-admin-core/config/source/file"
+	"github.com/nicelizhi/easy-admin-core/config/loader"
+	"github.com/nicelizhi/easy-admin-core/config/reader"
+	"github.com/nicelizhi/easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

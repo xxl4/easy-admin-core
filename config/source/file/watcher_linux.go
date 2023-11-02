@@ -6,7 +6,8 @@ package file
 import (
 	"os"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
+
 	"github.com/fsnotify/fsnotify"
 )
 

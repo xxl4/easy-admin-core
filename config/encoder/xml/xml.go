@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
 )
 
 type xmlEncoder struct{}

@@ -6,7 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
+
 	"github.com/imdario/mergo"
 )
 

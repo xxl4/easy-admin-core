@@ -3,7 +3,7 @@ package file
 import (
 	"testing"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 func TestFormat(t *testing.T) {

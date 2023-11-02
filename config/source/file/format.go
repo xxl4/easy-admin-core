@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"easy-admin-core/config/reader"
+	"github.com/nicelizhi/easy-admin-core/config/reader"
 )
 
 type value struct{}

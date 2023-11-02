@@ -1,11 +1,11 @@
 package reader
 
 import (
-	"easy-admin-core/config/encoder"
-	"easy-admin-core/config/encoder/json"
-	"easy-admin-core/config/encoder/toml"
-	"easy-admin-core/config/encoder/xml"
-	"easy-admin-core/config/encoder/yaml"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/json"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/toml"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/xml"
+	"github.com/nicelizhi/easy-admin-core/config/encoder/yaml"
 )
 
 type Options struct {

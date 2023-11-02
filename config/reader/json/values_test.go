@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 func TestValues(t *testing.T) {

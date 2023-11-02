@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"easy-admin-core/config"
-	"easy-admin-core/config/source/file"
+	"github.com/nicelizhi/easy-admin-core/config"
+	"github.com/nicelizhi/easy-admin-core/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"easy-admin-core/config/encoder"
+	"github.com/nicelizhi/easy-admin-core/config/encoder"
 )
 
 type jsonEncoder struct{}

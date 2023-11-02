@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"easy-admin-core/config/source"
-	"easy-admin-core/config/source/env"
-	"easy-admin-core/config/source/file"
-	"easy-admin-core/config/source/memory"
+	"github.com/nicelizhi/easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source/env"
+	"github.com/nicelizhi/easy-admin-core/config/source/file"
+	"github.com/nicelizhi/easy-admin-core/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

@@ -3,7 +3,8 @@
 package secretbox
 
 import (
-	"easy-admin-core/config/secrets"
+	"github.com/nicelizhi/easy-admin-core/config/secrets"
+
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
 

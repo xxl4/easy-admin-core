@@ -5,7 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"easy-admin-core/config/secrets"
+	"github.com/nicelizhi/easy-admin-core/config/secrets"
+
 	naclbox "golang.org/x/crypto/nacl/box"
 )
 

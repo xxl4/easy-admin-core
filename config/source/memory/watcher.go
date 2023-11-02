@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 type watcher struct {

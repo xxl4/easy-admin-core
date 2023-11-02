@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 func TestReader(t *testing.T) {

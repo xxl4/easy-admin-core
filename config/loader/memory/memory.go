@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"easy-admin-core/config/loader"
-	"easy-admin-core/config/reader"
-	"easy-admin-core/config/reader/json"
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/loader"
+	"github.com/nicelizhi/easy-admin-core/config/reader"
+	"github.com/nicelizhi/easy-admin-core/config/reader/json"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 type memory struct {

@@ -2,7 +2,8 @@
 package box
 
 import (
-	"easy-admin-core/config/secrets"
+	"github.com/nicelizhi/easy-admin-core/config/secrets"
+
 	"github.com/pkg/errors"
 	naclbox "golang.org/x/crypto/nacl/box"
 

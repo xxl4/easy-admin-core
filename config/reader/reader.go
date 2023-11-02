@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"easy-admin-core/config/source"
+	"github.com/nicelizhi/easy-admin-core/config/source"
 )
 
 // Reader is an interface for merging changesets
