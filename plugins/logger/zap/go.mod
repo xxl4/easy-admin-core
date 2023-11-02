@@ -1,9 +1,9 @@
-module easy-admin-core/plugins/logger/zap
+module github.com/nicelizhi/easy-admin-core/plugins/logger/zap
 
 go 1.21
 
 require (
-	easy-admin-core
+	github.com/nicelizhi/easy-admin-core v0.0.0-00010101000000-000000000000
 	go.uber.org/zap v1.10.0
 )
 
@@ -13,4 +13,4 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 )
 
-//replace easy-admin-core => ../../../
+replace github.com/nicelizhi/easy-admin-core => ../../../

@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 type entryLogger interface {

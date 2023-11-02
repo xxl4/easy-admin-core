@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"easy-admin-core/debug/writer"
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/debug/writer"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 func TestName(t *testing.T) {

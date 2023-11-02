@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"easy-admin-core/logger"
+	"github.com/nicelizhi/easy-admin-core/logger"
 )
 
 type Options struct {
