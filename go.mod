@@ -1,4 +1,4 @@
-module github.com/nicelizhi/github.com/nicelizhi/easy-admin-core
+module github.com/nicelizhi/easy-admin-core
 
 go 1.21
 
@@ -16,10 +16,10 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/imdario/mergo v0.3.9
 	github.com/json-iterator/go v1.1.12
+	github.com/nicelizhi/redisqueue/v2 v2.0.0-20231103102536-a50be5055552
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.1
-	github.com/robinjoseph08/redisqueue/v2 v2.0.0
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/spf13/cast v1.3.1
@@ -46,7 +46,6 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.14.0 // indirect
-	github.com/go-redis/redis/v7 v7.3.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
@@ -71,7 +70,7 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
-	github.com/redis/go-redis/v9 v9.0.3 // indirect
+	github.com/redis/go-redis/v9 v9.3.0 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
 	github.com/richardlehane/msoleps v1.0.3 // indirect
 	github.com/smarty/assertions v1.15.0 // indirect
@@ -93,3 +92,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/nicelizhi/redisqueue/v2 v2.0.0 => ../../redisqueue
