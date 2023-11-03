@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-redis/redis/v9"
+	"github.com/redis/go-redis/v9"
 	"github.com/robinjoseph08/redisqueue/v2"
 
 	"github.com/nicelizhi/easy-admin-core/storage"

@@ -3,7 +3,7 @@ package queue
 import (
 	"github.com/nicelizhi/easy-admin-core/storage"
 
-	"github.com/go-redis/redis/v9"
+	"github.com/go-redis/redis/v7"
 	"github.com/robinjoseph08/redisqueue/v2"
 )
 

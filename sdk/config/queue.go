@@ -1,13 +1,16 @@
 package config
 
 import (
+	"fmt"
+	"log"
 	"time"
 
 	"github.com/nicelizhi/easy-admin-core/storage"
 	"github.com/nicelizhi/easy-admin-core/storage/queue"
 
-	"github.com/go-redis/redis/v9"
+	"github.com/go-redis/redis/v7"
 	"github.com/robinjoseph08/redisqueue/v2"
+	//"github.com/redis/go-redis/v9"
 )
 
 type Queue struct {
@@ -48,14 +51,22 @@ func (e Queue) Setup() (storage.AdapterQueue, error) {
 		//client * redis.Client
 		if client == nil {
 			options, err := e.Redis.RedisConnectOptions.GetRedisOptions()
+			fmt.Printf("options " + options.Addr + "\r\n")
+
 			if err != nil {
+				log.Fatal(err)
 				return nil, err
 			}
 			client = redis.NewClient(options)
+			fmt.Printf("options " + options.Password + "\r\n")
+			fmt.Printf("options client" + client.String())
 			_redis = client
 		}
-		//e.Redis.Producer.RedisClient = client
-		//e.Redis.Consumer.RedisClient = client
+
+		e.Redis.Producer.RedisClient = client
+		e.Redis.Consumer.RedisClient = client
+		//return queue.NewRedis()
+
 		return queue.NewRedis(e.Redis.Producer, e.Redis.Consumer)
 	}
 	if e.NSQ != nil {
