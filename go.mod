@@ -16,7 +16,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/imdario/mergo v0.3.9
 	github.com/json-iterator/go v1.1.12
-	github.com/nsqio/go-nsq v1.0.8
+	github.com/nsqio/go-nsq v1.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.17.0
 	github.com/robinjoseph08/redisqueue/v2 v2.1.0
