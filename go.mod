@@ -22,7 +22,7 @@ require (
 	github.com/robinjoseph08/redisqueue/v2 v2.1.0
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/smartystreets/goconvey v1.8.1
-	github.com/spf13/cast v1.3.1
+	github.com/spf13/cast v1.5.1
 	github.com/xuri/excelize/v2 v2.8.0
 	golang.org/x/crypto v0.14.0
 	google.golang.org/grpc v1.59.0
