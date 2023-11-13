@@ -3,7 +3,7 @@ module github.com/nicelizhi/easy-admin-core
 go 1.21
 
 require (
-	github.com/BurntSushi/toml v0.3.1
+	github.com/BurntSushi/toml v1.3.2
 	github.com/bitly/go-simplejson v0.5.1
 	github.com/bsm/redislock v0.9.4
 	github.com/fsnotify/fsnotify v1.4.9
