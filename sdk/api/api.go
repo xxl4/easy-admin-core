@@ -14,6 +14,8 @@ import (
 	"github.com/nicelizhi/easy-admin-core/storage"
 	"github.com/nicelizhi/easy-admin-core/tools/language"
 
+	ginI18n "github.com/gin-contrib/i18n"
+
 	vd "github.com/bytedance/go-tagexpr/v2/validator"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
@@ -86,7 +88,7 @@ func (e *Api) Bind(d interface{}, bindings ...binding.Binding) *Api {
 func (e Api) GetOrm() (*gorm.DB, error) {
 	db, err := pkg.GetOrm(e.Context)
 	if err != nil {
-		e.Logger.Error(http.StatusInternalServerError, err, "数据库连接获取失败")
+		e.Logger.Error(http.StatusInternalServerError, err, ginI18n.MustGetMessage(e.Context, "Database connection acquisition failed"))
 		return nil, err
 	}
 	return db, nil
@@ -102,7 +104,7 @@ func (e *Api) MakeOrm() *Api {
 	}
 	db, err := pkg.GetOrm(e.Context)
 	if err != nil {
-		e.Logger.Error(http.StatusInternalServerError, err, "数据库连接获取失败")
+		e.Logger.Error(http.StatusInternalServerError, err, ginI18n.MustGetMessage(e.Context, "Database connection acquisition failed"))
 		e.AddError(err)
 	}
 	e.Orm = db

@@ -16,6 +16,8 @@ import (
 	"github.com/nicelizhi/easy-admin-core/sdk/pkg"
 	"github.com/nicelizhi/easy-admin-core/sdk/pkg/response/antd"
 
+	ginI18n "github.com/gin-contrib/i18n"
+
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )
@@ -36,7 +38,7 @@ func (e Api) GetLogger() *logger.Helper {
 func (e *Api) GetOrm(c *gin.Context) (*gorm.DB, error) {
 	db, err := pkg.GetOrm(c)
 	if err != nil {
-		e.Error(http.StatusInternalServerError, "数据库连接获取失败", "9")
+		e.Error(http.StatusInternalServerError, ginI18n.MustGetMessage(c, "Database connection acquisition failed"), "9")
 		return nil, err
 	}
 	return db, nil
@@ -115,7 +117,7 @@ func (e *Api) MakeOrm() *Api {
 	}
 	db, err := pkg.GetOrm(e.Context)
 	if err != nil {
-		e.Logger.Error(http.StatusInternalServerError, err, "数据库连接获取失败")
+		e.Logger.Error(http.StatusInternalServerError, err, ginI18n.MustGetMessage(e.Context, "Database connection acquisition failed"))
 		e.AddError(err)
 	}
 	e.Orm = db
