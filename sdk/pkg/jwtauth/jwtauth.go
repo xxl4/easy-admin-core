@@ -187,7 +187,7 @@ var (
 	// ErrInvalidSigningAlgorithm indicates signing algorithm is invalid, needs to be HS256, HS384, HS512, RS256, RS384 or RS512
 	ErrInvalidSigningAlgorithm = errors.New("invalid signing algorithm")
 
-	ErrInvalidVerificationode = errors.New("验证码错误")
+	ErrInvalidVerificationode = errors.New("Verification code error")
 
 	// ErrNoPrivKeyFile indicates that the given private key is unreadable
 	ErrNoPrivKeyFile = errors.New("private key file unreadable")
