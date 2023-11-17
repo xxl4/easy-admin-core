@@ -12,6 +12,8 @@ type Application struct {
 	EnableDP      bool
 	TimeZone      string
 	Locale        string
+	Gzip          bool
+	GzipLevel     int
 }
 
 var ApplicationConfig = new(Application)
