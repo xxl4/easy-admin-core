@@ -11,7 +11,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-redis/redis/v7 v7.4.1
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
-	github.com/google/uuid v1.3.1
+	github.com/google/uuid v1.5.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/imdario/mergo v0.3.9
