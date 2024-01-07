@@ -17,7 +17,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/google/uuid v1.3.1
 	github.com/gorilla/websocket v1.4.2
-	github.com/mojocn/base64Captcha v1.3.1
+	github.com/mojocn/base64Captcha v1.3.6
 	github.com/nicelizhi/easy-admin-core v0.0.0-00010101000000-000000000000
 	github.com/nicelizhi/easy-admin-core/plugins/logger/zap v0.0.0-00010101000000-000000000000
 	github.com/nsqio/go-nsq v1.1.0
@@ -108,7 +108,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.13.0 // indirect
 	golang.org/x/arch v0.4.0 // indirect
-	golang.org/x/image v0.11.0 // indirect
+	golang.org/x/image v0.13.0 // indirect
 	golang.org/x/lint v0.0.0-20190930215403-16217165b5de // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
